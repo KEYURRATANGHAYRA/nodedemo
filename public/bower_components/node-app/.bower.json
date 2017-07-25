@@ -1,0 +1,25 @@
+{
+  "name": "node-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/isoloviev/node-app",
+  "authors": [
+    "ivan.soloviev@gmail.com"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.0.3",
+    "bootstrap": "3.0.2"
+  },
+  "_source": "/root/nodejs/bower.json",
+  "_target": "*",
+  "_originalSource": "../bower.json",
+  "_direct": true
+}

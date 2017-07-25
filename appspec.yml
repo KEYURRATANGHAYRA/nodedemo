@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /node
+hooks:
+  BeforeInstall:
+    - location: /scripts/install.sh
+      timeout: 300
+  AfterInstall:
+    - location: /scripts/post_install.sh
+      timeout: 120
+  ApplicationStart:
+    - location: /scripts/run.sh
+      timeout: 120
+  ApplicationStop:
+    - location: /scripts/stop.sh
+      timeout: 120
