@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-cd ~/node
+cd /node
 npm install
 
-cd ~/node/public
+cd /node/public
 bower install --allow-root ../bower.json

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-cd ~/node
+cd /node
 forever start app.js
